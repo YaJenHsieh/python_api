@@ -1,0 +1,13 @@
+html,body{
+	height: 100%;
+	margin: 0;
+	height: 100%;
+}
+.home_tbody{
+	border: 1.5px  black solid
+}
+
+.home_h1_err{
+	margin-top:180px;margin-bottom:400px;
+}
+

@@ -1,0 +1,7 @@
+Flask
+gunicorn
+flask_wtf
+wtforms
+validators
+psycopg2
+requests
