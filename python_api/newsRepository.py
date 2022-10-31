@@ -29,7 +29,6 @@ def add_news_list_to_sql(data):
 
 			sql = f"INSERT INTO news (title,content,url,create_date,modified_date,status) VALUES ('{title}','{content}','{url}','{create_date}','{modified_date}','{status}') WHERE EXISTS (select * from news where title='{title}') do instead nothing ;"
 			try:
-				pass
 				cur.execute(sql)
 				conn.commit()
 			except:
